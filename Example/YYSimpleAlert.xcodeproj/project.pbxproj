@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7AF120A8EDBA593446AA0E87 /* Pods-YYSimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Tests/Pods-YYSimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AD3B100B734325CB8712F745 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DB9845CE8EA315C06EAE0F51 /* YYSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YYSimpleAlert.podspec; path = ../YYSimpleAlert.podspec; sourceTree = "<group>"; };
+		AD3B100B734325CB8712F745 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB9845CE8EA315C06EAE0F51 /* YYSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYSimpleAlert.podspec; path = ../YYSimpleAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1452F4C690300C5C619E508 /* Pods_YYSimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYSimpleAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F17F6049481E95A4C2E784F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F17F6049481E95A4C2E784F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				513A40CE4E54AC7362AF2982 /* Pods-YYSimpleAlert_Tests.debug.xcconfig */,
 				7AF120A8EDBA593446AA0E87 /* Pods-YYSimpleAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
